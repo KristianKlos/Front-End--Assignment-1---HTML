@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   width: 1024px;
   margin-left: auto;
@@ -20,8 +21,6 @@ body {
   font-family: sans-serif;
 }
 
-
-
 .header {
   grid-area: header;
   display: grid;
@@ -35,8 +34,6 @@ body {
   color: white;
   background-color: rgb(121, 15, 15);
 }
-
-
 
 #main {
   grid-area: main;
@@ -54,8 +51,7 @@ body {
   color: wheat;
 }
 
-a:hover,
-a:active {
+a:hover, a:active {
   color: gray;
 }
 
@@ -155,6 +151,7 @@ ul {
 }
 
 /*LOGIN PAGE*/
+
 div {
   grid-area: wrapperC;
 }
@@ -167,19 +164,6 @@ div {
   display: grid;
   grid-template-areas: "wrapperC wrapperC wrapperC";
   padding-bottom: 20px;
-}
-
-div {
-  grid-area: wrapperC;
-}
-
-#div {
-  grid-area: wrapper;
-}
-
-.wrapperC {
-  display: grid;
-  grid-template-areas: "wrapperC wrapperC wrapperC";
 }
 
 .login-page-content {
@@ -210,6 +194,10 @@ div {
   margin-top: 4%;
 }
 
+input {
+  padding-top: 10px;
+}
+
 input[type="username"],
 input[type="password"] {
   width: 30%;
@@ -228,6 +216,3 @@ input[type="submit"] {
   background-color: #353535;
 }
 
-input {
-  padding-top: 10px;
-}
