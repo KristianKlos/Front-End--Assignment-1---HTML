@@ -20,18 +20,23 @@ body {
   font-family: sans-serif;
 }
 
-.header nav {
+
+
+.header {
   grid-area: header;
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 0px;
   height: 60px;
   grid-template-areas: "logo links links links login";
   align-items: center;
   justify-items: center;
+  padding-right: 30px;
 
   color: white;
   background-color: rgb(121, 15, 15);
 }
+
+
 
 #main {
   grid-area: main;
